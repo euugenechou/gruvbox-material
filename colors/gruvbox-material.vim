@@ -505,7 +505,7 @@ call gruvbox_material#highlight('TSDanger', s:palette.bg0, s:palette.red, 'bold'
 highlight! link TSAnnotation Purple
 highlight! link TSAttribute Purple
 highlight! link TSBoolean Purple
-highlight! link TSCharacter Aqua
+highlight! link TSCharacter Yellow
 highlight! link TSComment Comment
 highlight! link TSConditional Red
 highlight! link TSConstBuiltin BlueItalic
@@ -532,7 +532,7 @@ highlight! link TSParameter Orange
 highlight! link TSParameterReference Orange
 highlight! link TSProperty Orange
 highlight! link TSPunctBracket Fg
-highlight! link TSPunctDelimiter Grey
+highlight! link TSPunctDelimiter Fg
 highlight! link TSPunctSpecial Blue
 highlight! link TSRepeat Red
 highlight! link TSStorageClass Red
